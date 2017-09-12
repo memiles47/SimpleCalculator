@@ -8,6 +8,8 @@ namespace SimpleCalculator
 {
     class Program
     {
+        //Solution created for course / Learing C# by
+        //building applications.
         static void Main(string[] args)
         {
         }
