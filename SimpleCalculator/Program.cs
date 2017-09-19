@@ -12,6 +12,12 @@ namespace SimpleCalculator
         //building applications.
         static void Main(string[] args)
         {
+            Person person = new Person();
+
+            Console.WriteLine(person.GetAge());
+            person.SetAge(29);
+            Console.WriteLine(person.GetAge());
+            Console.Read();
         }
     }
 }
