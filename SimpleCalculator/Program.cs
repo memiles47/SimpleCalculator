@@ -17,7 +17,9 @@ namespace SimpleCalculator
             Console.WriteLine(person.GetAge());
             person.SetAge(29);
             Console.WriteLine(person.GetAge());
-            Console.Read();
+
+            Person.Greeting();
+            Console.ReadKey();
         }
     }
 }

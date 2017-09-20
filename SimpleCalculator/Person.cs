@@ -19,5 +19,10 @@ namespace SimpleCalculator
         {
             _age = newAge;
         }
+
+        public static void Greeting()
+        {
+            Console.WriteLine("Hello!");
+        }
     }
 }
