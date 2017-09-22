@@ -2,13 +2,13 @@
 
 namespace SimpleCalculator
 {
-    class Program
+    internal static class Program
     {
         //Solution created for course / Learing C# by
         //building applications.
-        static void Main(string[] args)
+        private static void Main()
         {
-            Person person = new Person();
+            var person = new Person();
 
             Console.WriteLine(person.GetAge());
             person.SetAge(29);
