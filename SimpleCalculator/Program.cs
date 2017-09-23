@@ -4,8 +4,6 @@ namespace SimpleCalculator
 {
     internal static class Program
     {
-        //Solution created for course / Learing C# by
-        //building applications.
         private static void Main()
         {
             var person = new Person();

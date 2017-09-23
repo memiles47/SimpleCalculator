@@ -2,7 +2,7 @@
 
 namespace SimpleCalculator
 {
-    class Person
+    internal class Person
     {
         private int _age = 25;
 
