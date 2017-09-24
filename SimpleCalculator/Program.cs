@@ -4,8 +4,6 @@ namespace SimpleCalculator
 {
     internal static class Program
     {
-        // And why am I doing this??
-        // Because I love her.
         private static void Main()
         {
             var person = new Person();
