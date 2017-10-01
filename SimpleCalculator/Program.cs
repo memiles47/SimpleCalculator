@@ -13,7 +13,6 @@ namespace SimpleCalculator
             person.SetAge(29);
             Console.WriteLine(person.GetAge());
 
-            //Access static Greeting method
             Person.Greeting();
             Console.ReadKey();
         }
