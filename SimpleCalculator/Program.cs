@@ -7,6 +7,7 @@ namespace SimpleCalculator
         private static void Main()
         {
             var person = new Person();
+            var multiply = new Multiply();
 
             Console.WriteLine(person.GetAge());
 
